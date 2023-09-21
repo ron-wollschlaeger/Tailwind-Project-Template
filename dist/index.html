@@ -40,11 +40,10 @@
     </div>
 
     <!-- Dark mode toggle -->
-    <button id="toggleButton"
-        class="border border-black dark:border-white rounded p-2 absolute top-5 right-5 transition-all hover:bg-black/10 dark:hover:bg-white/20">
+    <button class="absolute top-5 right-5 hover:animate-spin-slow">
         <!-- Light Mode -->
         <svg xmlns="http://www.w3.org/2000/svg"
-            class="sun icon icon-tabler icon-tabler-sun-filled text-black dark:hidden" width="24" height="24"
+            class="sun icon icon-tabler icon-tabler-sun-filled" width="24" height="24"
             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -74,7 +73,7 @@
 
         <!-- Dark Mode -->
         <svg xmlns="http://www.w3.org/2000/svg"
-            class="moon icon icon-tabler icon-tabler-moon-filled dark:text-white hidden dark:block" width="24"
+            class="moon icon icon-tabler icon-tabler-moon-filled" width="24"
             height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -83,12 +82,13 @@
                 stroke-width="0" fill="currentColor"></path>
         </svg>
     </button>
+    <!-- Template END -->
 
-    <script>
-    </script>
-    <!-- Tempalte END -->
+    <main
+        class="bg-slate-200 dark:bg-stone-900 shadow-2xl z-10 w-60 h-60 font-bold uppercase grid place-content-center text-gray-800 dark:text-gray-200">
+        Main content here</main>
 
-    <main></main>
+    <script src="./main.js"></script>
 </body>
 
 </html>
