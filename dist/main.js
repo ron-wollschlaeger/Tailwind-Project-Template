@@ -1,3 +1,4 @@
+// Dark Mode Toggle
 // Icons
 const sunIcon = document.querySelector(".sun");
 const moonIcon = document.querySelector(".moon");
@@ -39,7 +40,6 @@ const themeSwitch = () => {
 sunIcon.addEventListener("click", () => {
     themeSwitch();
 })
-
 moonIcon.addEventListener("click", () => {
     themeSwitch();
 })
