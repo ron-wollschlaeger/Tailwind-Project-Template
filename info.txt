@@ -1,0 +1,2 @@
+Every new start -> terminal -> "npm run dev".
+When you have finished your project, upload your DIST content, to your host.
