@@ -10,12 +10,12 @@
 </head>
 
 <body
-    class="relative flex min-h-screen items-center justify-center bg-gradient-to-tr from-slate-50 dark:from-slate-950 to-emerald-100 dark:to-emerald-900 text-black dark:text-white">
+    class="relative flex items-center justify-center min-h-screen text-slate-950 bg-gradient-to-br from-slate-100 dark:from-slate-700 to-slate-300 dark:to-slate-900 dark:text-slate-50">
     <!-- Ron's basic template for iCodeThis challenges -->
     <!-- Background -->
     <div
         class="dark:invert bg-center[mask-image:linear-gradient(black,rgba(255,255,255,10))] absolute inset-0 z-0 animate-pulse overflow-hidden">
-        <svg class="-rotate-6 scale-150 stroke-black/10 opacity-10" width="100%" height="100%"
+        <svg class="scale-150 -rotate-6 stroke-black/10 opacity-10" width="100%" height="100%"
             xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <pattern id="smallGrid" width="8" height="8" patternUnits="userSpaceOnUse">
@@ -31,7 +31,7 @@
     </div>
 
     <!-- Credits -->
-    <div class="absolute bottom-5 right-5 scale-50 hover:scale-110 transition-all origin-bottom-right">
+    <div class="absolute transition-all origin-bottom-right scale-50 bottom-5 right-5 hover:scale-110">
         <a class="flex flex-col items-center" href="https://www.frontshape.de" target="_blank">
             <img class="block invert dark:invert-0 w-full max-w-[10rem]"
                 src="https://frontshape.de/wp-content/uploads/2023/05/H1-White.png" alt="">
@@ -42,9 +42,8 @@
     <!-- Dark mode toggle -->
     <button class="absolute top-5 right-5 hover:animate-spin-slow">
         <!-- Light Mode -->
-        <svg xmlns="http://www.w3.org/2000/svg"
-            class="sun icon icon-tabler icon-tabler-sun-filled" width="24" height="24"
-            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+        <svg xmlns="http://www.w3.org/2000/svg" class="sun icon icon-tabler icon-tabler-sun-filled" width="24"
+            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M12 19a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z"
@@ -72,8 +71,7 @@
         </svg>
 
         <!-- Dark Mode -->
-        <svg xmlns="http://www.w3.org/2000/svg"
-            class="moon icon icon-tabler icon-tabler-moon-filled" width="24"
+        <svg xmlns="http://www.w3.org/2000/svg" class="moon icon icon-tabler icon-tabler-moon-filled" width="24"
             height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -84,7 +82,7 @@
     </button>
     <!-- Template END -->
 
-    <main class="bg-slate-200 dark:bg-stone-900 shadow-2xl z-10 w-60 h-60 font-bold uppercase grid place-content-center text-gray-800 dark:text-gray-200 my-40">
+    <main class="z-10 w-full max-w-xl shadow-xl bg-slate-100 dark:bg-slate-900">
         <span>Main content here</span>
     </main>
 
