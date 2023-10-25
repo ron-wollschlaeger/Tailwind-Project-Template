@@ -30,17 +30,8 @@
         </svg>
     </div>
 
-    <!-- Credits -->
-    <div class="absolute transition-all origin-bottom-right scale-50 bottom-5 right-5 hover:scale-110">
-        <a class="flex flex-col items-center" href="https://www.frontshape.de" target="_blank">
-            <img class="block invert dark:invert-0 w-full max-w-[10rem]"
-                src="https://frontshape.de/wp-content/uploads/2023/05/H1-White.png" alt="">
-            <span class="text-xs">Developed by Ron Wollschläger</span>
-        </a>
-    </div>
-
     <!-- Dark mode toggle -->
-    <button class="absolute top-5 right-5 hover:animate-spin-slow">
+    <button class="absolute top-5 right-5 hover:animate-spin-slow" aria-label="Dark mode button">
         <!-- Light Mode -->
         <svg xmlns="http://www.w3.org/2000/svg" class="sun icon icon-tabler icon-tabler-sun-filled" width="24"
             height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -85,6 +76,15 @@
     <main class="z-10 w-full max-w-xl shadow-xl bg-slate-100 dark:bg-slate-900">
         <span>Main content here</span>
     </main>
+
+    <!-- Credits -->
+    <footer class="absolute transition-all origin-bottom-right scale-50 bottom-5 right-5 hover:scale-110">
+        <a class="flex flex-col items-center" href="https://www.frontshape.de" target="_blank">
+            <img class="block invert dark:invert-0 w-full max-w-[10rem]"
+                src="https://frontshape.de/wp-content/uploads/2023/05/H1-White.png" alt="">
+            <span class="text-xs">Developed by Ron Wollschläger</span>
+        </a>
+    </footer>
 
     <script src="./dist/main.js"></script>
 </body>
